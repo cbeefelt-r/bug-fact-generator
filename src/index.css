@@ -1,0 +1,10 @@
+:root{--bg:#f6faff;--card:#fff;--accent:#3a6351}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,'Helvetica Neue',Arial}
+.container{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:1rem;background:var(--bg)}
+main{background:linear-gradient(180deg,#fff,#f7f9fa);border-radius:12px;box-shadow:0 6px 20px rgba(0,0,0,.08);padding:1.5rem;max-width:640px;width:100%}
+h1{margin:0 0 .5rem;font-size:1.25rem}
+.fact{font-size:1rem;margin:0 0 1rem}
+.controls{display:flex;gap:.5rem}
+button{background:var(--accent);color:#fff;border:none;padding:.6rem .9rem;border-radius:8px;cursor:pointer}
+@media(min-width:420px){.fact{font-size:1.25rem}h1{font-size:1.5rem}}
